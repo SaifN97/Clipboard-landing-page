@@ -1,3 +1,5 @@
+@use "colors" as *;
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,57 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.8rem;
 }
+h1 {
+  font-size: 3rem;
+}
+h1,
+h2,
+h3 {
+  color: $dark-grayish-blue;
+  text-align: center;
+}
+
+p {
+  color: $grayish-blue;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  text-align: center;
+}
 
 img {
   max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.9em 2em;
+  margin-bottom: 1em;
+  border-radius: 100px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 1.95rem;
+  width: 100%;
+  box-shadow: inset -2px -3px rgba($color: #000000, $alpha: 0.1);
+
+  &-primary {
+    background: $strong-cyan;
+  }
+
+  &-secondary {
+    background: $light-blue;
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
 }

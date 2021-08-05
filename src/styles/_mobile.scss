@@ -1,0 +1,93 @@
+@use 'colors' as *;
+
+header {
+  background: url("../images/bg-header-desktop.png") no-repeat -5rem 0 / cover;
+  background-size: 350%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 13.5rem;
+  .logo {
+    margin: 12.3rem 0 6.2rem 0;
+  }
+  .hero-text {
+    p {
+      padding: 1.3em 0 3.4em 0;
+    }
+  }
+}
+
+//Intro section
+.intro {
+  .intro-top,
+  .intro-mid,
+  .intro-bottom {
+    text-align: center;
+    .intro-header p {
+      padding: 1.3em 0 4.5em 0;
+    }
+    .intro-text p {
+      padding: 1em 0 3.5em 0;
+    }
+  }
+
+  .intro-top {
+    .intro-text {
+      margin: 3em 0 7.5em 0;
+    }
+  }
+
+  .intro-mid,
+  .intro-bottom {
+    margin-bottom: 9.8rem;
+  }
+  .intro-bottom h3 {
+    padding-top: 2em;
+  }
+}
+
+//Brands
+.brands {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  height: 45rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta {
+  margin: 15rem auto;
+  p {
+    padding: 1.3em 0 4.5em 0;
+  }
+}
+
+footer {
+  background: rgba(152, 152, 152, 0.1);
+  padding: 2.5em;
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    margin-bottom: 2.5em;
+    width: 15%;
+  }
+  a {
+    text-align: center;
+    color: $dark-grayish-blue;
+    padding-bottom: 2em;
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
