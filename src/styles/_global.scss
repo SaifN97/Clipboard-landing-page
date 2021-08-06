@@ -20,14 +20,14 @@ h1,
 h2,
 h3 {
   color: $dark-grayish-blue;
-  text-align: center;
+  //   text-align: center;
 }
 
 p {
   color: $grayish-blue;
   font-size: 1.5rem;
   line-height: 1.6;
-  text-align: center;
+  //   text-align: center;
 }
 
 img {
@@ -39,6 +39,7 @@ a {
 
 .container {
   width: 82%;
+  //   max-width: 400px;
   margin: 0 auto;
 }
 
