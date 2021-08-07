@@ -81,14 +81,26 @@ footer {
     width: 15%;
   }
   a {
+    cursor: pointer;
     text-align: center;
     color: $dark-grayish-blue;
     padding-bottom: 2em;
+    &:hover,
+    &:focus {
+      color: $strong-cyan;
+    }
   }
   .social {
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin: 0 auto;
+    img {
+      cursor: pointer;
+      &:hover {
+        filter: brightness(0) saturate(100%) invert(58%) sepia(85%)
+          saturate(355%) hue-rotate(122deg) brightness(88%) contrast(95%);
+      }
+    }
   }
 }
