@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-approach-using-node-sass-css-grid-and-flexbox-Fbpf6QAnn)
+- Live Site URL: [Clipboard landing page](https://priceless-lamarr-be16c6.netlify.app/)
 
 ## My process
 
